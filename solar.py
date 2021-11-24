@@ -27,3 +27,7 @@ def map_js():
 @app.route("/templates/style.css")
 def style_css():
     return send_from_directory('static', path = 'style.css')
+
+@app.route("/assets/solar_points.json")
+def solar_points():
+    return send_from_directory('static', path = 'solar_points.json')
