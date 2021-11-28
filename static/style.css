@@ -8,4 +8,52 @@ body,
 #map {
     height: 100%;
     width: 100%;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+#overlay {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-family: -apple-system, 'Noto Sans JP', sans-serif;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+h2 {
+    font-weight: 500;
+    margin: -5px 0;
+}
+
+#key {
+    margin: 10px 0;
+}
+
+.labels {
+    height: 20px;
+}
+
+#lowLabel {
+    float: left;
+}
+
+#highLabel {
+    float: right;
+}
+
+.keyDiagram {
+    height: 15px;
+    width: 100%;
+    background: rgb(1, 50, 32);
+    background: linear-gradient(90deg, rgba(1, 50, 32, 1) 0%, rgba(34, 139, 34, 1) 17%, rgba(217, 230, 80, 1) 31%, rgba(227, 255, 0, 1) 41%, rgba(255, 247, 0, 1) 49%, rgba(245, 199, 26, 1) 59%, rgba(255, 165, 0, 1) 70%, rgba(255, 111, 0, 1) 81%, rgba(255, 0, 0, 1) 90%, rgba(139, 0, 0, 1) 100%);
 }
